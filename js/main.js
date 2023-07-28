@@ -38,3 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+
+submit.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    console.log("Clicked");
+})
